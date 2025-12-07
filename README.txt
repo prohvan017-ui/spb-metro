@@ -36,5 +36,5 @@ git clone https://github.com/prohvan017-ui/spb-metro
 4. Распакуйте JavaFX в директорию рядом с spbmetro-1.0-fat.jar
 5. Вы можете запустить файл через консоль, открытой в директории с программой, командой
 java --module-path "javafx-sdk-21.0.2/lib" --add-modules javafx.controls -jar spbmetro-1.0-fat.jar
-
 или Вы можете запустить скрипт run.sh для быстрого запуска программы. (если скрипт не запускается, то попробуйте написать chmod +x run.sh и запустить ./run.sh)
+
