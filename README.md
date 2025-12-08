@@ -24,7 +24,7 @@ Windows
 3. Скачайте SDK JavaFX 21.0.2 (https://jdk.java.net/javafx21/) для Windows/x64
 4. Распакуйте JavaFX в папку с spbmetro-1.0-fat.jar
 5. Вы можете запустить файл через консоль, открытой в папке с программой, командой
-java --module-path "openjfx-21.0.2_windows-x64_bin-sdk\javafx-sdk-21.0.2\lib" --add-modules javafx.controls -jar spbmetro-1.0-fat.jar
+"java --module-path "openjfx-21.0.2_windows-x64_bin-sdk\javafx-sdk-21.0.2\lib" --add-modules javafx.controls -jar spbmetro-1.0-fat.jar"
 или Вы можете запустить скрипт run.bat для быстрого запуска программы.
 
 Linux/Mac
@@ -34,7 +34,8 @@ Linux/Mac
 3. Скачайте SDK JavaFX 21.0.2 (https://jdk.java.net/javafx21/) для вашей операционной системы.
 4. Распакуйте JavaFX в директорию с spbmetro-1.0-fat.jar
 5. Вы можете запустить файл через консоль, открытой в директории с программой, командой
-java --module-path "javafx-sdk-21.0.2/lib" --add-modules javafx.controls -jar spbmetro-1.0-fat.jar
+"java --module-path "javafx-sdk-21.0.2/lib" --add-modules javafx.controls -jar spbmetro-1.0-fat.jar"
 или Вы можете запустить скрипт run.sh для быстрого запуска программы. Для запуска скрипта необходимо сделать его исполняемым: "chmod +x run.sh" и запустить "./run.sh".
+
 
 
