@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Main-Class: com.example.kursovaya.model.AppMain
+Implementation-Title: SpbMetro
+Implementation-Version: 1.0-SNAPSHOT
+Multi-Release: true
+Created-By: Gradle 8.13
+Build-Jdk: 21.0.9
+
