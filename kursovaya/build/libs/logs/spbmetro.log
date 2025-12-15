@@ -1,0 +1,45 @@
+[19:42:23.201] [INFO ] [AppMain] - ==========================================
+[19:42:23.204] [INFO ] [AppMain] - Starting Saint Petersburg Metro application
+[19:42:23.215] [INFO ] [AppMain] - Java version: 21.0.9
+[19:42:23.216] [INFO ] [AppMain] - Working directory: C:\Idea\kursovaya\build\libs
+[19:42:23.216] [INFO ] [AppMain] - Command line arguments: []
+[19:42:23.241] [INFO ] [AppMain] - Starting Saint Petersburg Metro application
+[19:42:23.243] [DEBUG] [AppMain] - Loading metro map from map.json
+[19:42:23.244] [INFO ] [MapLoader] - Loading metro map from file: map.json
+[19:42:23.245] [DEBUG] [MapLoader] - File found, starting JSON parsing
+[19:42:23.430] [INFO ] [MapLoader] - Creating MetroMap with 73 stations
+[19:42:23.433] [DEBUG] [Graph] - Creating graph with 73 vertices
+[19:42:23.433] [DEBUG] [MapLoader] - Loaded 5 metro lines
+[19:42:23.434] [DEBUG] [MapLoader] - Loaded 73 stations
+[19:42:23.435] [DEBUG] [MapLoader] - Loaded 77 connections
+[19:42:23.435] [INFO ] [MapLoader] - Metro map successfully loaded: 5 lines, 73 stations, 77 connections
+[19:42:23.435] [INFO ] [AppMain] - Metro map loaded successfully. Stations: 73
+[19:42:23.668] [DEBUG] [AppMain] - Created list of 73 stations using Stream API
+[19:42:24.377] [INFO ] [AppMain] - GUI initialized successfully
+[19:42:26.250] [WARN ] [AppMain] - Attempt to search route without selecting stations
+[19:42:27.897] [DEBUG] [AppMain] - Requesting adjacency matrix information
+[19:42:27.904] [INFO ] [AppMain] - Adjacency matrix: 73 stations, 77 connections, max weight=3
+[19:42:27.909] [DEBUG] [AppMain] - Matrix information displayed
+[19:42:29.403] [DEBUG] [AppMain] - Requesting list of all stations
+[19:42:29.404] [INFO ] [AppMain] - Total stations in system: 73
+[19:42:29.406] [DEBUG] [AppMain] - Line 1: 19 stations
+[19:42:29.407] [DEBUG] [AppMain] - Line 2: 18 stations
+[19:42:29.407] [DEBUG] [AppMain] - Line 3: 12 stations
+[19:42:29.408] [DEBUG] [AppMain] - Line 4: 9 stations
+[19:42:29.408] [DEBUG] [AppMain] - Line 5: 15 stations
+[19:42:29.410] [DEBUG] [AppMain] - Station list displayed
+[19:42:32.552] [WARN ] [AppMain] - Attempt to search route without selecting stations
+[19:42:37.461] [INFO ] [AppMain] - Searching route from 'Беговая' to 'Звенигородская'
+[19:42:37.464] [DEBUG] [AppMain] - Running Dijkstra algorithm with adjacency matrix
+[19:42:37.467] [DEBUG] [AppMain] - Reconstructing path from algorithm results
+[19:42:37.467] [INFO ] [AppMain] - Route found: 9 stations, time 24 minutes, calculation time 2973 μs
+[19:42:37.468] [DEBUG] [AppMain] - Number of transfers in route: 2
+[19:42:37.472] [DEBUG] [AppMain] - Results displayed to user successfully
+[19:42:43.405] [INFO ] [AppMain] - Searching route from 'Академическая' to 'Гостиный двор'
+[19:42:43.406] [DEBUG] [AppMain] - Running Dijkstra algorithm with adjacency matrix
+[19:42:43.406] [DEBUG] [AppMain] - Reconstructing path from algorithm results
+[19:42:43.407] [INFO ] [AppMain] - Route found: 10 stations, time 27 minutes, calculation time 355 μs
+[19:42:43.407] [DEBUG] [AppMain] - Number of transfers in route: 1
+[19:42:43.411] [DEBUG] [AppMain] - Results displayed to user successfully
+[19:42:45.188] [INFO ] [AppMain] - Application closing
+[19:42:45.250] [INFO ] [AppMain] - Application finished successfully
